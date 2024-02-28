@@ -1,2 +1,2 @@
 # ASCII-Übersetzer
-Kommt noch irgendwann und irgendwie... 
+Soll später nicht nur Binär zu Dezimal können, sondern auch andere Zahlensysteme.
