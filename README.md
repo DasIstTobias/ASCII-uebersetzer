@@ -1,2 +1,2 @@
-# ASCII-translator
+# ASCII-Übersetzer
 Kommt noch irgendwann und irgendwie... 
