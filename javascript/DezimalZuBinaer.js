@@ -11,7 +11,7 @@ function berechnen() {
     // Hier wird die Länge der Binärzahl berechnet,
     // damit anhand der Länge, im nächsten Schritt die Binärzahl selbst
     // berechnet werden kann.
-    let binärzahlenLänge = Math.floor(Math.log2(dezimalzahl)) + 1;
+    let binärzahlenLänge = Math.floor(Math.log2(dezimalzahl));
 
     // Hier werden solange stellen an die Binärzahl gerechnet,
     // bis sie die eben berechnete Länge erreicht.
