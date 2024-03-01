@@ -1,5 +1,5 @@
 // Zuerst wird hier die Funktion zum berechnen der Binärzahl erstellt.
-function berechnen() {
+function berechneBinaerZahl() {
     // Hier wird die Dezimalzahl aus dem Eingabefeld in der HTML Datei geholt.
     let dezimalzahl = document.getElementById('eingabe').value;
 
@@ -28,9 +28,3 @@ function berechnen() {
     // in das Ausgabefeld in der HTML Datei ausgegeben.
     document.getElementById('ausgabe').value = binaerzahl;
 }
-
-// Zum Schluss wird die funktion ein erstes mal ausgeführt.
-// Das ist, damit Fehlercodes gesehen werden können,
-// bevor der Nutzer die funktion, mit dem Knopf in der HTML Datei,
-// selber ausführt. Diese Zeile kann also auch weggelassen werden.
-berechnen();
