@@ -2,31 +2,36 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <link href="style/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASCII-Uebersetzer</title>
 </head>
 <body>
     <h1>ASCII Code Übersetzer von Tobias</h1>
     <br>
-    <h2>Eingabe und Ausgabe Bereich:</h2>
-    <form action="#">
-        <label for="uebersetzenoption">Wähle eine Option zum Übersetzen:
-          <select name="uebersetzenoption" id="uebersetzenoption">
-            <option>--Bitte eine Option Wählen--</option>
-            <option>berechneBinaerZahl</option>
-            <option>berechneDezimalZahl</option>
-          </select>
-        </label>
-      </form>
-    <p>
-        <label for="eingabe">Eingabe:</label>
-        <input type="number" id="eingabe" name="eingabe" placeholder="Input" min="0">
-    </p>
-    <p>
-        <label for="ausgabe">Ausgabe:</label>
-        <input type="number" id="ausgabe" name="ausgabe" placeholder="Output" readonly>
-    </p>
-    <button onclick="berechnenKnopf()">Berechnen</button>
+    <div class="container">
+      <div class="box">
+        <form action="#">
+            <label for="uebersetzenoption">Wähle eine Option zum Übersetzen:
+              <select name="uebersetzenoption" id="uebersetzenoption">
+                <option>--Bitte eine Option Wählen--</option>
+                <option>berechneBinaerZahl</option>
+                <option>berechneDezimalZahl</option>
+              </select>
+            </label>
+          </form>
+        <p>
+          <label for="eingabe">Eingabe:</label>
+          <input type="number" id="eingabe" name="eingabe" placeholder="Input" min="0">
+        </p>
+        <p>
+          <label for="ausgabe">Ausgabe:</label>
+          <input type="number" id="ausgabe" name="ausgabe" placeholder="Output" readonly>
+        </p>
+
+        <button onclick="berechnenKnopf()">Berechnen</button>
+      </div>
+    </div>
 
     <script type="text/javascript" src="javascript/Auswahlliste.js"></script>
     <script type="text/javascript" src="javascript/BinaerZuDezimal.js"></script>
